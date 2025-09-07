@@ -58,7 +58,7 @@ export default function Projects()
                 {/* 프로젝트 카드들 */}
                 <section className="mt-12">
                     <h2 className="text-3xl  font-bold text-center text-indigo-400 mb-8">프로젝트</h2>
-                    <div className="grid grid-colos-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <div className="grid grid-colos-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
                         {
                             portfolioData.projects.map((project)=>(
                                 <ProjectCard key={project.id} project={project}></ProjectCard>
